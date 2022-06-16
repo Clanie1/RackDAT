@@ -1,7 +1,12 @@
+import NavBar from "../components/Comunes/NavBar";
+
 const Inicio = () => {
   return (
     <div>
-      <h1>Inicio</h1>
+      <NavBar />
+      <div className="banner bg-[url('./img/gimnasio.jpg')] p-10">
+        <h1>hola</h1>
+      </div>
     </div>
   );
 };
