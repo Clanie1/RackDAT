@@ -9,7 +9,7 @@ const Inicio = () => {
           <h1 className="text-6xl mt-8 mb-4 mx-16 text-left">RackDAT</h1>
           <p className="text-2xl mx-8 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nesciunt neque excepturi similique, porro fugiat distinctio libero voluptas quibusdam repellat, tenetur totam est tempora minima facilis iste. Recusandae numquam tempore earum tenetur rem quam rerum et debitis dolorem asperiores amet ullam exercitationem minus suscipit odit, voluptas neque? Ipsum, et ad. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex quia natus voluptatem aspernatur labore laborum doloribus rem repellendus. Provident, aperiam?</p>
         </div>
-        <div>
+        <div className="w-[50%] flex justify-center items-center">
           <img src={gimnasio} alt="Gimnasio CETYS" className="h-[300px]" />
         </div>
       </div>
