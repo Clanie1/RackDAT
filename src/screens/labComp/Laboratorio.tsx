@@ -15,10 +15,10 @@ const Laboratorio = ({Lab}:prop) => {
                 {
                     Lab.map(lab =>{
                         return(
-                            <div>
-                                <h3>{lab.Nombre}</h3>
-                                <h5>{lab.Descripcion}</h5>
-                                <button>Reservar</button>
+                            <div className="">
+                                <h3 className="">{lab.Nombre}</h3>
+                                <h5 className="">{lab.Descripcion}</h5>
+                                <button className="">Reservar</button>
                             </div>
                         )
                     })
