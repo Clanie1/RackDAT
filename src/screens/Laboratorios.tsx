@@ -4,7 +4,7 @@ import Laboratorio from "./labComp/Laboratorio"
 interface lab{
   Nombre: String
   id: number
-  img: String
+  img: string
   Descripcion?: String
 
 }
