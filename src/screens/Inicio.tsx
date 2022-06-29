@@ -2,10 +2,12 @@ import NavBar from "../components/Comunes/NavBar";
 import gimnasio from "../img/gimnasio.jpg"
 import logoDosTintas from "../img/LogoCetysBlanco.png"
 import tijeras from "../img/tijeras.png"
+import cetys from "../img/cetys-universidad.jpeg"
 const Inicio = () => {
   return (
     <div>
-      <div className="bg-emerald-800 h-96">slider imagenes</div>
+      <div style={{backgroundImage: `url(${cetys})`}} className="w-full h-[400px] bg-no-repeat bg-center bg-cover">
+      </div>
       <div className="h-[400px] flex flex-row grid-cols-2">
         <div className="w-[50%] flex flex-col space-y-1 ">
           <h1 className="text-6xl mt-8 mb-4 mx-16 text-left">RackDAT</h1>
